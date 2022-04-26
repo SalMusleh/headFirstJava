@@ -1,6 +1,6 @@
 package headFirstJava;
 
-public class PoolPuzzle {
+public class PoolPuzzleOne {
     public static void main(String[] args) {
         int x = 0;
         while (x < 4) {
@@ -11,7 +11,7 @@ public class PoolPuzzle {
             System.out.print("n");
             if (x > 1) {
                 System.out.print(" oyster");
-                x = x + 1;
+                x = x + 2;
             }
             if (x == 1) {
                 System.out.print("noys");
